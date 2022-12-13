@@ -4,7 +4,8 @@ class Config(object):
     API_ID = int(os.environ.get("APP_ID", "18677149"))
     API_HASH = os.environ.get("API_HASH", "4fb2463e7bec8bb620830e8e938d06fb")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5844265319:AAE5I7HH9TFoileiDrpkD2sDna_QVmz-qTs")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1ApWapzMBu1CRMSAoLgsmrc5qbBs5r_qHsZtRhSBi2XWfvZ1tQOXtnKVt1ybX9b3JEUNTX0NCSFazdAuWXA8_mZ-3G1Bhp2yXjXaOYG-SlqAz-I4FRQsl0dOjjp-vLtoolt30G-3ziviDhO-6YWENarBTqcatpkBFYpCT2XyojZetWKd2FgyMkGv32JwqayrEPYH3B1ZA5pMdyk9RNoRhWiCY31Q6_oRE_RZMyfOXyyyZq49GnosxR_iIDJKVgBvmQywlvZh__LZ0BopefV8YY3qpNfYOCWuoKjdLCGyvvrVMpkThNidif6hZd2xwsGep_LmKQMgw2D9OI4vmunapzsQLgO8T_0c=")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1ApWapzMBu3Coxg-DVyrw7Ccog7xlQLfTw17eXUaX48O0j72ECTbHkhLFPar4VrN8Vjq8W7E7mFP1xVlQpxRDQXhCk-iRdbXHD_tsiShTfxNUMZQgcvlLOY-h5Z_VHkdmIaH03IWGPLtr3LAX2ywwx66V60Qs85zoGGs0ooX8lVwsm11ud_X_ke4faH-Ueb0DyWAnMq4NgsqdFdRnnxl1BNXyavnNCoyVaV4rHEihGYWj_baT6clXaoiCYwJ5p9ceXl8YpoEXtsf9tT_TzhUuZmpuK0U3YHO9gL9KkBzvaOV9pI27iNub1pGqBqU8zGWUyiA_044RO2naSGeMmbn82KFOJJSwIcM=
+")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "GROOTMUSIC_robot")
